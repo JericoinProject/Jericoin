@@ -9,7 +9,7 @@ Discord https://discord.gg/xuEVagA8AT
 <br><br><strong> Coin Specs </strong>
 
 <ul>
-  <li>Consensus : QBFT [a link](https://entethalliance.github.io/client-spec/qbft_spec.html)</li>
+  <li>Consensus : QBFT (https://entethalliance.github.io/client-spec/qbft_spec.html)</li>
   <li>Ticker : JHL
   <li>Block Reward : 0.001</li>
   <li>Max. Supply : Unlimited</li>
@@ -17,7 +17,7 @@ Discord https://discord.gg/xuEVagA8AT
   <li>Block time : 10 Seconds</li>
   <li>DefaultPorts : 30303(p2p) - 8545(rpc)</li>
   <li>Chain ID : 707007</li>
-  <li>Block Explorer : [a link](https://isa.explorer.jericoin.com)</li>
+  <li>Block Explorer : (https://isa.explorer.jericoin.com)</li>
   <li>Blockchain : Jericoin Hosting Legacy
   <li>rpcUrl : https://rpc.jsc.jericoin.com</li>
   <li>Decimals: 18</li>
