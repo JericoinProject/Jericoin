@@ -39,12 +39,12 @@ Discord https://discord.gg/xuEVagA8AT
   $ tar -xvf besu-23.7.1.tar.gz<br>
   $ sudo mv besu-23.7.1 /opt/<br>
   $ sudo ln -s /opt/besu-23.7.1/bin/besu /usr/bin/jericoin<br>
-3. Start Jericoin Node
-  $ git clone https://github.com/JericoinProject/Jericoin
-  $ cd Jericoin
-  $ nohup jericoin --config-file=config.toml &
-4. You can view the logs in nohup.out like this
-  $ tail -f nohup.out
+3. Start Jericoin Node<br>
+  $ git clone https://github.com/JericoinProject/Jericoin<br>
+  $ cd Jericoin/jhl<br>
+  $ nohup jericoin --config-file=config.toml &<br>
+4. You can view the logs in nohup.out like this<br>
+  $ tail -f nohup.out<br>
 
 
 # Troubleshooting
