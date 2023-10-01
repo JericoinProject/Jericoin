@@ -1,0 +1,20 @@
+{
+  "config" : {
+    "chainId" : 707007,
+    "londonBlock" : 0,
+    "qbft" : {
+      "blockreward" : "1000000000000000",
+      "blockperiodseconds" : 10,
+      "epochlength" : 30000,
+      "requesttimeoutseconds" : 20
+    }
+  },
+  "nonce" : "0x0",
+  "timestamp" : "1695952859",
+  "gasLimit" : "0x47b760",
+  "difficulty" : "0x1",
+  "mixHash" : "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
+  "coinbase" : "0x0000000000000000000000000000000000000000",
+  "alloc" : {},
+  "extraData" : "0xf87aa00000000000000000000000000000000000000000000000000000000000000000f8549401ab946127e0f524491859d7147e0449e52e12d49438514d69ed85a50cebbd7728a904b25acfc2277894f5ed8c50453cced761c980fe53391f8f73162a0894729077aad14f9805dabb6bf1da593df15cd49f1ec080c0"
+}
