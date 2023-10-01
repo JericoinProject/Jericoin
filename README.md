@@ -39,3 +39,16 @@ Discord https://discord.gg/xuEVagA8AT
   $ tar -xvf besu-23.7.1.tar.gz<br>
   $ sudo mv besu-23.7.1 /opt/<br>
   $ sudo ln -s /opt/besu-23.7.1/bin/besu /usr/bin/jericoin<br>
+3. Start Jericoin Node
+  $ git clone https://github.com/JericoinProject/Jericoin
+  $ cd Jericoin
+  $ nohup jericoin --config-file=config.toml &
+4. You can view the logs in nohup.out like this
+  $ tail -f nohup.out
+
+
+# Troubleshooting
+Make sure to copy your private key to the data folder, otherwise, it won't work.
+Create like this:
+  $ echo -ne "0x##############################" > $HOME/Jericoin/jhl/data/key
+  
