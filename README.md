@@ -23,3 +23,19 @@ Discord https://discord.gg/xuEVagA8AT
   <li>Decimals: 18</li>
  </ul>
   
+# How to download software requirements to be Validator
+1. Install JDK-21
+  $ cd $HOME
+  $ wget https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz
+  $ tar -xvf jdk-21_linux-x64_bin.tar.gz
+  $ sudo mkdir /usr/lib/jvm/
+  $ sudo mv jdk-21 /usr/lib/jvm/
+  Next, append this line in .bashrc
+  $  vim ~/.bashrc
+      export JAVA_HOME=/usr/lib/jvm/jdk-21
+2. Download Ethereum Client
+  $ cd $HOME
+  $ wget https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/23.7.1/besu-23.7.1.tar.gz
+  $ tar -xvf besu-23.7.1.tar.gz
+  $ sudo mv besu-23.7.1 /opt/
+  $ sudo ln -s /opt/besu-23.7.1/bin/besu /usr/bin/besu
