@@ -48,7 +48,7 @@ Discord https://discord.gg/xuEVagA8AT
 
 
 # Troubleshooting
-Make sure to copy your private key to the data folder, otherwise, it won't work.
-Create like this:
-  $ echo -ne "0x##############################" > $HOME/Jericoin/jhl/data/key
+Make sure to copy your private key to the data folder, otherwise, it won't work.<br>
+Create like this:<br>
+  $ echo -ne "0x##############################" > $HOME/Jericoin/jhl/data/key<br>
   
