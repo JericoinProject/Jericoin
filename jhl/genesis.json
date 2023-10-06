@@ -1,17 +1,39 @@
 {
   "config" : {
     "chainId" : 707007,
-    "londonBlock" : 0,
+    "homesteadBlock": 0,
+    "daoForkBlock": 0,
+    "daoForkSupport": true,
+    "eip150Block": 0,
+    "eip155Block": 0,
+    "eip158Block": 0,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
+    "constantinopleFixBlock": 0,
+    "muirGlacierBlock": 0,
+    "berlinBlock": 0,
+    "londonBlock": 0,
+    "arrowGlacierBlock": 0,
+    "grayGlacierBlock": 0,
     "qbft" : {
-      "blockreward" : "1000000000000000",
+      "blockreward" : "1000000000000000000000",
       "blockperiodseconds" : 10,
       "epochlength" : 30000,
       "requesttimeoutseconds" : 20
-    }
+    },
+    "transitions" : {
+      "qbft" : [
+        {
+          "block" : 20,
+          "blockreward" : "1000000000000000"
+        }
+      ]
+  }
   },
+
   "nonce" : "0x0",
-  "timestamp" : "1695952859",
-  "gasLimit" : "0x47b760",
+  "timestamp" : "1696590000",
+  "gasLimit" : "0x29b92700",
   "difficulty" : "0x1",
   "mixHash" : "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
   "coinbase" : "0x0000000000000000000000000000000000000000",
