@@ -23,32 +23,13 @@ Discord https://discord.gg/xuEVagA8AT
   <li>Decimals: 18</li>
  </ul>
   
-# How to download software requirements to be Validator
-1. Install JDK-21<br>
-  $ cd $HOME<br>
-  $ wget https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz<br>
-  $ tar -xvf jdk-21_linux-x64_bin.tar.gz<br>
-  $ sudo mkdir /usr/lib/jvm/<br>
-  $ sudo mv jdk-21 /usr/lib/jvm/<br>
-  Next, append this line in .bashrc<br>
-  $  vim ~/.bashrc<br>
-      export JAVA_HOME=/usr/lib/jvm/jdk-21<br>
-2. Download Ethereum Client<br>
-  $ cd $HOME<br>
-  $ wget https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/23.7.1/besu-23.7.1.tar.gz<br>
-  $ tar -xvf besu-23.7.1.tar.gz<br>
-  $ sudo mv besu-23.7.1 /opt/<br>
-  $ sudo ln -s /opt/besu-23.7.1/bin/besu /usr/bin/jericoin<br>
-3. Start Jericoin Node<br>
-  $ git clone https://github.com/JericoinProject/Jericoin<br>
-  $ cd Jericoin/jhl<br>
-  $ nohup jericoin --config-file=config.toml &<br>
-4. You can view the logs in nohup.out like this<br>
-  $ tail -f nohup.out<br>
+# How to install client node
+$ sudo apt -y install wget
+$ mkdir node && cd node
+$ wget https://raw.githubusercontent.com/JericoinProject/Jericoin/main/run.sh
+$ chmod 700 run.sh
+$ ./run.sh
 
+<br>Make sure to copy your private key (/home/user/Jericoin/jhl/data/key) to safe data folder, otherwise, it could be removed.<br>
 
-# Troubleshooting
-Make sure to copy your private key to the data folder, otherwise, it won't work.<br>
-Create like this:<br>
-  $ echo -ne "0x##############################" > $HOME/Jericoin/jhl/data/key<br>
   
