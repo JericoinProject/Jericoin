@@ -23,12 +23,12 @@ Discord https://discord.gg/xuEVagA8AT
   <li>Decimals: 18</li>
  </ul>
   
-# How to install client node
-$ sudo apt -y install wget
-$ mkdir node && cd node
-$ wget https://raw.githubusercontent.com/JericoinProject/Jericoin/main/run.sh
-$ chmod 700 run.sh
-$ ./run.sh
+# How to install client node<br>
+$ sudo apt -y install wget<br>
+$ mkdir node-installer && cd node-installer<br>
+$ wget https://raw.githubusercontent.com/JericoinProject/Jericoin/main/run.sh<br>
+$ chmod 700 run.sh<br>
+$ ./run.sh<br>
 
 <br>Make sure to copy your private key (/home/user/Jericoin/jhl/data/key) to safe data folder, otherwise, it could be removed.<br>
 
